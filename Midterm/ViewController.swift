@@ -121,6 +121,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         }
         array.removeAll()
         array.append(contentsOf: sortedArray)
+        sortedArray.removeAll()
         collectionView.reloadData()
     }
 
